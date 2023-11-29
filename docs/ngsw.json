@@ -1,0 +1,87 @@
+{
+  "configVersion": 1,
+  "timestamp": 1701289148364,
+  "index": "/ruth-wangui-mwangi/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/ruth-wangui-mwangi/favicon.ico",
+        "/ruth-wangui-mwangi/index.html",
+        "/ruth-wangui-mwangi/main.02ef71fbd3d473fd.js",
+        "/ruth-wangui-mwangi/manifest.webmanifest",
+        "/ruth-wangui-mwangi/polyfills.c68836181845ab68.js",
+        "/ruth-wangui-mwangi/runtime.4868d0b334dcf875.js",
+        "/ruth-wangui-mwangi/scripts.3e75d50128144df1.js",
+        "/ruth-wangui-mwangi/styles.74be4013cca22c2f.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/ruth-wangui-mwangi/assets/icons/icon-128x128.png",
+        "/ruth-wangui-mwangi/assets/icons/icon-144x144.png",
+        "/ruth-wangui-mwangi/assets/icons/icon-152x152.png",
+        "/ruth-wangui-mwangi/assets/icons/icon-192x192.png",
+        "/ruth-wangui-mwangi/assets/icons/icon-384x384.png",
+        "/ruth-wangui-mwangi/assets/icons/icon-512x512.png",
+        "/ruth-wangui-mwangi/assets/icons/icon-72x72.png",
+        "/ruth-wangui-mwangi/assets/icons/icon-96x96.png",
+        "/ruth-wangui-mwangi/bootstrap-icons.49c9b8524d23a4c2.woff",
+        "/ruth-wangui-mwangi/bootstrap-icons.f41d849d445f6f5f.woff2"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/ruth-wangui-mwangi/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/ruth-wangui-mwangi/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/ruth-wangui-mwangi/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/ruth-wangui-mwangi/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/ruth-wangui-mwangi/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/ruth-wangui-mwangi/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/ruth-wangui-mwangi/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/ruth-wangui-mwangi/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/ruth-wangui-mwangi/bootstrap-icons.49c9b8524d23a4c2.woff": "cce254d50d2f744cd8f384cd4aa2a23c8850e2ee",
+    "/ruth-wangui-mwangi/bootstrap-icons.f41d849d445f6f5f.woff2": "d33714cb0836ea9ebe02f4ccc22806593903167a",
+    "/ruth-wangui-mwangi/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/ruth-wangui-mwangi/index.html": "d2cfa4fa949652005b5554c9610be377fec16c0e",
+    "/ruth-wangui-mwangi/main.02ef71fbd3d473fd.js": "831b0ee678343b62fff70f0e43d396c429e74888",
+    "/ruth-wangui-mwangi/manifest.webmanifest": "51be09be643ab77868f8df480c602b4aa4401429",
+    "/ruth-wangui-mwangi/polyfills.c68836181845ab68.js": "ddc16bdf2bed4cb44651bdab497a5b8438bf9a50",
+    "/ruth-wangui-mwangi/runtime.4868d0b334dcf875.js": "d5bf72da8d73d887b01846c2297fe899447a88a4",
+    "/ruth-wangui-mwangi/scripts.3e75d50128144df1.js": "d72da9ade03467f91c011aebc90808b70f6e9dbb",
+    "/ruth-wangui-mwangi/styles.74be4013cca22c2f.css": "e557b9f67a894df8836de1bc3c3e55766904c90a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

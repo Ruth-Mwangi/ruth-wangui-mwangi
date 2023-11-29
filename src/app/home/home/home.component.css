@@ -1,0 +1,107 @@
+#home{
+    background-color: black;
+    height: 100vh;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    /* border: #ff6eff 1px solid; */
+    box-shadow: 3px 3px 10px 0 #ff6eff;
+}
+
+.neon-sign {
+    display: inline-block;
+    margin: 20px;
+}
+
+.neon-text {
+    font-size: 48px; /* Adjust the font size as needed */
+    font-family: 'Arial', sans-serif; /* Choose your preferred font family */
+    color: #fff; /* Text color - usually white for neon effect */
+    text-shadow: 0 0 10px #ff6eff, 0 0 20px #ff6eff, 0 0 30px #ff6eff, 0 0 40px #ff6eff, 0 0 70px #ff6eff, 0 0 80px #ff6eff, 0 0 100px #ff6eff; /* Multiple text shadows to create the glow effect */
+    animation: flicker 1.5s infinite alternate; /* Animation to create a flickering effect */
+}
+
+@keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        text-shadow: 0 0 10px #ff6eff, 0 0 20px #ff6eff, 0 0 30px #ff6eff, 0 0 40px #ff6eff, 0 0 70px #ff6eff, 0 0 80px #ff6eff, 0 0 100px #ff6eff;
+    }
+    20%, 24%, 55% {
+        text-shadow: none;
+    }
+}
+
+.container-flex {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    background-color: #1d1d20 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+}
+
+
+.content {
+    width: 90%; 
+    padding: 10px; /* Optional: Add padding to the content */
+    height: 100%;
+    /* text-align: center;  */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #b3b3b2 ;
+  }
+.emphasize{
+    font-weight: bolder;
+}
+
+.about_me{
+    border-left: 2px solid;
+    padding: 10px;
+    border-image: linear-gradient(to top, gold, white);
+    border-image-slice: 1;
+    font-size: large;
+    font-style: normal;
+}
+.display-1{
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #b3b3b2 ;
+    font-size: large;
+    font-style: normal;
+}
+li{
+    list-style-type: none;
+}
+hr{
+    background: linear-gradient(to right, gold, white);
+    height: 2px;
+
+}
+.project {
+    --size: 52px;
+    padding: 20px;
+    
+    background:
+      linear-gradient(gold var(--size), transparent 0 calc(100% - var(--size)), white 0) 0 0 / 4px 100%,
+      linear-gradient(gold var(--size), transparent 0 calc(100% - var(--size)), white 0) 100% 0 / 4px 100%,
+      linear-gradient(to right, gold var(--size), transparent 0 calc(100% - var(--size)), white 0) 0 0 / 100% 4px,
+      linear-gradient(to right, gold var(--size), transparent 0 calc(100% - var(--size)), white 0) 0 100% / 100% 4px
+      ;
+    background-repeat: no-repeat;
+  }
+
+  app-social{
+    position: absolute;
+    width: 80%;
+  }
